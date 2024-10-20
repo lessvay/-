@@ -91,7 +91,14 @@ else
     echo "Заполнение папки $LOG_DIR составляет $USAGE%. Архивирование не требуется."
 fi
 ```
-
+Делаем скрипт исполняемым 
+```bash
+chmod +x check_log_usage.sh
+```
+Запуск скрипта
+```bash
+./check_log_usage.sh
+```
 ### 3. Тестовый скрипт
 
 Создание файла test_full_functionality.sh
@@ -158,7 +165,14 @@ else
     echo "/LOG пуста после архивирования."
 fi
 ```
-
+Делаем скрипт исполняемым 
+```bash
+chmod +x test_full_functionality.sh
+```
+Запуск скрипта
+```bash
+./test_full_functionality.sh
+```
 Установка прав доступа
 
 ```bash
