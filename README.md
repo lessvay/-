@@ -50,7 +50,7 @@ df -h | grep /BACKUP
 Cоздание файла check_log_usage.sh
 
 ```bash
-nano check_log_usage.sh
+nano check.sh
 ```
 
 Скрипт
@@ -93,18 +93,18 @@ fi
 ```
 Делаем скрипт исполняемым 
 ```bash
-chmod +x check_log_usage.sh
+chmod +x check.sh
 ```
 Запуск скрипта
 ```bash
-./check_log_usage.sh
+./check.sh
 ```
 ### 3. Тестовый скрипт
 
-Создание файла test_full_functionality.sh
+Создание файла test.sh
 
 ```bash
-nano test_full_functionality.sh
+nano test.sh
 ```
 
 Скрипт
@@ -167,11 +167,11 @@ fi
 ```
 Делаем скрипт исполняемым 
 ```bash
-chmod +x test_full_functionality.sh
+chmod +x test.sh
 ```
 Запуск скрипта
 ```bash
-./test_full_functionality.sh
+./test.sh
 ```
 Установка прав доступа
 
